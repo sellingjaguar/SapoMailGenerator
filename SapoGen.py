@@ -35,9 +35,9 @@ def generate_acc() :
 
        try :
               # acc data
-              name = "Jonas Alberto"
+              name = "John Doe"
               mail = random_string()
-              password = "LOLxd1234"
+              password = "PASSword123"
 
               WebDriverWait(driver, 10).until(
                      EC.presence_of_element_located((By.CSS_SELECTOR, "button.sc-ifAKCX:nth-child(2)"))).click()
